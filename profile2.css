@@ -478,6 +478,7 @@ section {
     .herotext {
         max-width: 320px;
         margin-left: 10rem;
+        padding-top: 0.70rem;
     }
 
     .profilepic {
@@ -539,12 +540,20 @@ section {
     }
 
     .herotext {
-        margin-left: 3.5rem;
+        margin-left: 3.8rem;
+        padding-top: 0.70rem;
+
     }
 
     .profilepic {
-        margin-left: 1rem;
+        margin-left: 2rem;
+     
+        height: 300px;
+        width: 300px;                                                                                       
+        border-radius: 50%;
+    
     }
+
 
 }
 
@@ -556,15 +565,21 @@ section {
 
     .herotext {
         max-width: 310px;
+        padding-top: 0.70rem;
+
     }
 
 
     .profilepic {
-        margin-left: -1rem;
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
     }
 
     .herotext {
         max-height: 100px;
+        padding-top: 0.70rem;
+
     }
 }
 
@@ -576,13 +591,19 @@ section {
 
     .herotext {
         max-width: 280px;
+        padding-top: 0.70rem;
+
     }
 
     #footer_contact {
         height: 6rem;
     }
+    .profilepic {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
 
 
 }
-
 /* -------------------------------------------------------------------------------------------------------- */
