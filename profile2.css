@@ -71,7 +71,6 @@ span p {
 .fa-solid.fa-envelope {
     padding-top: 0.20rem;
     transition: 0.5s;
-    animation: ringing2 2s ease-out 0s infinite normal;
 
 
 }
@@ -79,19 +78,15 @@ span p {
 .fa-solid.fa-phone {
     padding-top: 0.20rem;
     transition: 0.5s;
-    animation: ringing 0.50s ease-in-out 0s infinite normal;
+    animation: ringing 2.5s ease-in-out 0s infinite normal;
 
 }
 @keyframes ringing{
-    0%{transform: rotate(1deg);}
-    50%{transform: rotate(0deg);}
-    100%{transform: rotate(10deg);}
-}
-@keyframes ringing2{
     0%{transform: rotate(10deg);}
     50%{transform: rotate(0deg);}
     100%{transform: rotate(10deg);}
 }
+
 
 .contact_logos {
     display: flex;
